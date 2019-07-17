@@ -24,6 +24,6 @@ def get_hit_count():
 def hello():
     count = get_hit_count()
     return 'Hello World! Welcome to Python AI I have been seen {} times.\n'.format(count)
-    return 'Welcome  implementation Team'
+
 if __name__ == "__main__":
    app.run(host="0.0.0.0", debug=True)
